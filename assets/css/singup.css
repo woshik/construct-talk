@@ -1,0 +1,93 @@
+body {
+  background: #0b0a58;
+  background: -moz-radial-gradient(circle, #0b0a58 60%, #050636 85%);
+  background: -webkit-radial-gradient(circle, #0b0a58 60%, #050636 85%);
+  background: radial-gradient(circle, #0b0a58 60%, #050636 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0b0a58",endColorstr="#050636",GradientType=1);
+}
+
+.title h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 52px;
+  text-transform: uppercase;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  padding: 20px;
+}
+.logo img {
+  width: 350px;
+}
+
+.container {
+  margin-top: 65px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  width: 500px;
+  background-color: #BFBFBF;
+  border: 10px solid #7F7F7F;
+  padding: 30px 30px;
+  border-radius: 14px;
+}
+
+input {
+  border: 5px solid #7F7F7F !important;
+  background-color: transparent !important;
+}
+
+.form-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-button .btn {
+  background-color: #203864;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+.title h1 {
+  font-size: 45px;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .form-wrapper {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .title h1 {
+    font-size: 40px;
+  }
+}
+
+/*# sourceMappingURL=singup.css.map */

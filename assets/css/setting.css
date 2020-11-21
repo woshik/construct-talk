@@ -1,0 +1,71 @@
+body {
+  background: #0b0a58;
+  background: -moz-radial-gradient(circle, #0b0a58 60%, #050636 85%);
+  background: -webkit-radial-gradient(circle, #0b0a58 60%, #050636 85%);
+  background: radial-gradient(circle, #0b0a58 60%, #050636 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0b0a58",endColorstr="#050636",GradientType=1);
+}
+
+.title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 52px;
+  text-transform: uppercase;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 10px 10px;
+  align-items: center;
+  height: 100px;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+main {
+  height: calc(100vh - 100px);
+}
+
+.content {
+  background-color: #BFBFBF;
+  max-width: 750px;
+  padding: 50px !important;
+  margin: 0 auto;
+}
+
+.left-sidebar {
+  max-width: 150px;
+}
+.left-sidebar div {
+  background-color: #203864;
+  border: 1px solid #ffffff;
+  padding: 10px !important;
+}
+
+.label {
+  background-color: #BFBFBF;
+  color: #000;
+  padding: 5px 25px;
+  border-radius: 14px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.content-title h2 {
+  color: #7F7F7F;
+}
+
+/*# sourceMappingURL=setting.css.map */
