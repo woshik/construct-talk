@@ -47,6 +47,10 @@ input {
 .title {
     margin-bottom: 50px;
 
+    .form-logo {
+        width: 420px;
+    }
+
     h1 {
         @extend %title;
         font-size: 60px;
@@ -79,8 +83,15 @@ input {
         padding: 30px 20px;
     }
 
-    .title h1 {
-        font-size: 40px;
+    .title {
+
+        .form-logo {
+            width: 280px;
+        }
+        
+        h1 {
+            font-size: 40px;
+        }
     }
 
     .footer h2 {
