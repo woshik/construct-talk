@@ -68,6 +68,10 @@ main {
   color: #7F7F7F;
 }
 
+.company-logo {
+  width: 125px;
+}
+
 .profile-image {
   height: 215px;
   overflow: hidden;
